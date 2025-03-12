@@ -70,39 +70,6 @@ a{
     pointer-events: none;
 }
 
-
- /* 1024px IPAD */
-@media (max-width: 1024px) {
-
-   
-    .hero img {
-        margin-top: 100px;
-        width: 300px;
-    }
-
-    .hero h1 {
-        width: 85%;
-        font-size: 60px;
-    }
-
-    .hero p {
-        width: 70%;
-        font-size: 20px;
-        line-height: 36px;
-    }
-
-    .hero-action {
-        gap: 20px;
-        font-size: 20px;
-    }
-
-    .hero-connect,
-    .hero-resume {
-        padding: 22px 40px;
-        border-radius: 45px;
-    }
-}
-
 /*768px*/
 @media(max-width:768px){
     .hero img{
@@ -135,9 +102,12 @@ a{
         padding: 20px 50px;
         border-radius: 40px;
     }
+    .hero>div:first-child {
+        display: none;
+    }
 }
 /*Mobile*/
-@media (max-width: 430px) {
+@media (max-width: 460px) {
     .hero img {
         margin-top: 80px;
         width: 220px;
@@ -145,7 +115,7 @@ a{
 
     .hero h1 {
         width: 90%;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .hero p {
@@ -158,10 +128,15 @@ a{
         gap: 12px;
         font-size: 16px;
     }
-
-    .hero-connect,
     .hero-resume {
         padding: 18px 35px;
         border-radius: 35px;
+    }
+    .hero-connect{
+        padding: 15px 25px;
+        border-radius: 35px;
+    }
+    .hero>div:first-child {
+        display: none;
     }
 }
