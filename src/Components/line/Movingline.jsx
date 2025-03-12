@@ -81,10 +81,14 @@ const ConnectedLines = () => {
     p5.resizeCanvas(p5.windowWidth, p5.windowHeight);
 
     // เมื่อหน้าจอมีขนาด max-width 768px
-    if (p5.windowWidth <= 768) {
-      setNumPoints(32); // ลดจำนวนจุดลง 
+    if (p5.windowWidth <= 390) { 
+      setNumPoints(28); 
+    } else if (p5.windowWidth <= 430) {
+      setNumPoints(32); 
+    } else if (p5.windowWidth <= 768) {
+      setNumPoints(40);
     } else {
-      setNumPoints(90); // maxwidth 768px
+      setNumPoints(90); 
     }
 
     points = [];
