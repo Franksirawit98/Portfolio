@@ -72,4 +72,39 @@
         flex-direction: column-reverse;
         margin-bottom: 50px;
     }
+    .footer-top-right {
+        gap: 30px;
+    }
+    
+    .footer-email-input {
+        gap: 30px;
+        padding: 15px 25px;
+        padding-right: 80px;
+    }
+    .footer-subscribe {
+        font-size: 20px;
+        padding: 15px 25px;
+    }
+}
+/*Mobile*/
+@media (max-width: 430px) {
+
+    .footer-top-right {
+        gap: 12px;
+    }
+    
+    .footer-email-input {
+        gap: 20px;
+        padding: 12px 25px;
+        padding-right: 10px;
+    }
+    
+    .footer-email-input input {
+        font-size: 18px;
+    }
+    
+    .footer-subscribe {
+        font-size: 20px;
+        padding: 12px 25px;
+    }
 }
