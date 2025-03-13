@@ -154,7 +154,10 @@
     }
 }
 
-@media (max-width: 460px) {
+@media(max-width:460px) {
+    .contact-title h1 {
+        font-size: 45px;
+    }
     .contact-left h1 {
         font-size: 45px;
     }
