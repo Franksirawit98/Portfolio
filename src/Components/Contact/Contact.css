@@ -153,9 +153,10 @@
         padding: 15px 40px;
     }
 }
-/*Mobile*/
+
 @media (max-width: 460px) {
     .contact-left h1 {
         font-size: 45px;
     }
+    
 }
