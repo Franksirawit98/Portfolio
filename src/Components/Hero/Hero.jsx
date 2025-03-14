@@ -15,11 +15,11 @@ const Hero = () => {
         <h1><span><TypewriterEffect text="I'm Sirawit," speed={250}  /></span>Frontend developer based in Thailand</h1>
         <p>I am a Frontend developer frome Bangkok, Thailand I am truly delighted to have the opportunity to work with all of you</p>
         <div className="hero-action">
-            <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}></p>Connect With Me</AnchorLink></div>
+          <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact' onClick={()=>setMenu("contact")}>Connect With Me</AnchorLink></div>
             <a href={resume} download>
              <div className='hero-resume'>My resume</div>
             </a>
-        </div>
+          </div>
     </div>
   )
 }
