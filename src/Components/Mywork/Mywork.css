@@ -141,3 +141,11 @@
         cursor: pointer;
     }
 }
+@media(max-width:430px) {
+    .mywork-title h1 {
+        font-size: 43px;
+    }
+    .mywork-contanier{
+        grid-template-columns: 1fr;
+    }
+}
