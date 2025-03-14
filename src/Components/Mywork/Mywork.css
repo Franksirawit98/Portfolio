@@ -143,12 +143,12 @@
 }
 @media(max-width:430px) {
     .mywork-title h1 {
-        font-size: 43px;
+        font-size: 40px;
+    }
+    .mywork-title img {
+        width: 120px;
     }
     .mywork-contanier{
         grid-template-columns: 1fr;
     }
-    .mywork-showmore {
-    padding: 15px 40px;
-}
 }
