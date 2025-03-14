@@ -138,3 +138,12 @@
         gap: 20px;
     }
 }
+@media(max-width:430px) {
+    .services-title h1 {
+        font-size: 38px;
+    }
+
+    .services-title img {
+        width: 120px;
+    }
+}
