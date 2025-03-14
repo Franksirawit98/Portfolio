@@ -148,4 +148,7 @@
     .mywork-contanier{
         grid-template-columns: 1fr;
     }
+    .mywork-showmore {
+    padding: 15px 40px;
+}
 }
