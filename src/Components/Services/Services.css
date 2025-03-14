@@ -37,14 +37,12 @@
 .services-format {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     gap: 20px;
     padding: 40px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
     cursor: pointer;
-    /* text-align: center; */
 }
 
 .services-format h3 {
@@ -99,7 +97,7 @@
     .services {
         align-items: center;
         gap: 50px;
-        margin: 20px 40px;
+        margin: 50px 70px;
     }
 
     .services-title h1 {
