@@ -11,6 +11,8 @@ const mywork_data = [
     w_no: 1,
     w_name: "Web design",
     w_img: project1_img,
+    demo_link: "https://portfolio-sirawit-boonserms-projects.vercel.app",
+    github_link: "https://github.com/Franksirawit98/Portfolio",
   },
   {
     w_no: 2,
